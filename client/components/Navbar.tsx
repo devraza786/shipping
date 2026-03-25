@@ -19,7 +19,7 @@ export default function Navbar() {
         <a href="/" className="flex items-center">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/12e76f523a83ffb34cc4953d94a9f3219ed4cb24?width=234"
-            alt="Apexus"
+            alt="Royaume Shipping Line"
             className="h-5 md:h-6 w-auto"
           />
         </a>

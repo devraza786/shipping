@@ -13,9 +13,9 @@ export default function ServicesSection() {
           className="font-medium text-4xl md:text-5xl lg:text-[64px] leading-tight tracking-tight gradient-text"
           style={{ letterSpacing: "-1.92px", lineHeight: "1.2" }}
         >
-          Solutions to Keep
+          Complete Shipping
           <br />
-          Your Business Moving
+          Solutions for Global Trade
         </h2>
       </div>
 
@@ -35,14 +35,14 @@ export default function ServicesSection() {
                 className="inline-flex items-center px-6 py-2.5 rounded-lg text-[#E5E5E5] text-base self-start"
                 style={{ background: "rgba(255,255,255,0.10)", backdropFilter: "blur(3px)" }}
               >
-                Secure & Scalable Storage
+                Global Port Access
               </div>
               <div className="mt-auto">
                 <h3 className="text-white text-3xl md:text-4xl font-medium mb-3" style={{ letterSpacing: "-0.36px" }}>
-                  Warehousing & Storage
+                  Import & Export Services
                 </h3>
                 <p className="text-[#A3A3A3] text-base leading-relaxed max-w-lg">
-                  Access our network of strategically located warehouses for faster delivery and maximum security.
+                  Full-service import and export solutions with access to major international ports and seamless global shipping networks.
                 </p>
               </div>
             </div>
@@ -113,14 +113,14 @@ export default function ServicesSection() {
                 className="inline-flex items-center px-6 py-2.5 rounded-lg text-[#E5E5E5] text-base self-start"
                 style={{ background: "rgba(255,255,255,0.10)", backdropFilter: "blur(3px)" }}
               >
-                Pick, Pack & Ship - Simplified
+                Customs Made Simple
               </div>
               <div className="mt-auto">
                 <h3 className="text-white text-3xl md:text-4xl font-medium mb-3" style={{ letterSpacing: "-0.36px" }}>
-                  Order Fulfillment
+                  Customs Clearance
                 </h3>
                 <p className="text-[#A3A3A3] text-base leading-relaxed max-w-lg">
-                  From receiving to packaging and shipping, we handle every step of your order fulfillment process with speed and accuracy.
+                  Expert customs documentation and clearance services to ensure your shipments move smoothly through international borders without delays.
                 </p>
               </div>
             </div>
@@ -166,14 +166,14 @@ export default function ServicesSection() {
                 className="inline-flex items-center px-6 py-2.5 rounded-lg text-[#E5E5E5] text-base self-start"
                 style={{ background: "rgba(255,255,255,0.10)", backdropFilter: "blur(3px)" }}
               >
-                Flexible Shipping Solutions
+                Competitive Vessel Rates
               </div>
               <div className="mt-auto">
                 <h3 className="text-white text-3xl md:text-4xl font-medium mb-3" style={{ letterSpacing: "-0.36px" }}>
-                  Freight & Transportation
+                  Vessel Booking & Freight
                 </h3>
                 <p className="text-[#A3A3A3] text-base leading-relaxed max-w-lg">
-                  Enjoy optimized shipping options, discounted carrier rates, and reliable transportation for domestic and international deliveries.
+                  Access competitive freight rates and reliable vessel bookings with our established relationships with major shipping lines worldwide.
                 </p>
               </div>
             </div>

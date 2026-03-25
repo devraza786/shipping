@@ -6,7 +6,7 @@ export default function HeroSection() {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage:
-            "url('https://api.builder.io/api/v1/image/assets/TEMP/fb9c27d2b2031d85129a5701e2293d28d81311ac?width=3820')",
+            "url('https://cdn.builder.io/api/v1/image/assets%2F860f967385ba439e95705da6918e19f0%2Fa21241700aad4091a75d0addccf91932?format=webp&width=800&height=1200')",
           backgroundSize: "cover",
           backgroundPosition: "center top",
         }}
@@ -29,9 +29,9 @@ export default function HeroSection() {
             lineHeight: "1",
           }}
         >
-          Smart Logistics
+          Global Shipping
           <br />
-          Seamless Growth
+          International Trade
         </h1>
 
         {/* Tagline chips */}
@@ -48,8 +48,8 @@ export default function HeroSection() {
                 />
               </svg>
             </span>
-            <span className="text-white text-sm font-medium">Your Growth,</span>
-            <span className="text-white/70 text-sm font-medium">Our Logistics</span>
+            <span className="text-white text-sm font-medium">Import & Export,</span>
+            <span className="text-white/70 text-sm font-medium">Made Easy</span>
           </div>
           <span className="w-px h-4 bg-white/20 hidden sm:block" />
           <div className="flex items-center gap-2">
@@ -64,8 +64,8 @@ export default function HeroSection() {
                 />
               </svg>
             </span>
-            <span className="text-white text-sm font-medium">Nationwide Reach,</span>
-            <span className="text-white/70 text-sm font-medium">Local Care</span>
+            <span className="text-white text-sm font-medium">Global Network,</span>
+            <span className="text-white/70 text-sm font-medium">Miami-Based</span>
           </div>
         </div>
 

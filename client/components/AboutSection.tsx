@@ -18,10 +18,10 @@ export default function AboutSection() {
               className="font-medium text-2xl md:text-3xl lg:text-4xl text-[#0A0A0A]"
               style={{ letterSpacing: "-0.36px", lineHeight: "1.33" }}
             >
-              At Apexus, we believe logistics should be the easiest part of your business
+              At Royaume Shipping Line, we simplify international trade and customs clearance
             </h2>
             <p className="text-[#404040] text-base leading-relaxed">
-              With years of experience in third-party logistics, we provide end-to-end solutions that keep your supply chain running smoothly – from warehousing and order fulfillment to nationwide shipping and real-time tracking. Our mission is simple: to help businesses scale without limits.
+              With extensive experience in import/export operations, we provide comprehensive shipping solutions that streamline your global supply chain – from vessel booking and documentation to customs clearance and final delivery. Based in Miami, we serve businesses seeking reliable, professional handling of their international shipments.
             </p>
             <a
               href="#contact"
@@ -47,14 +47,14 @@ export default function AboutSection() {
                       backgroundClip: "text",
                     }}
                   >
-                    10
+                    15
                   </span>
                   <span className="text-[#0A0A0A] font-normal text-5xl leading-none mb-2" style={{ letterSpacing: "-6px" }}>+</span>
                 </div>
                 <div className="flex flex-col gap-1">
                   <div className="w-24 h-px" style={{ background: "linear-gradient(270deg, rgba(255,255,255,0) 3.98%, rgba(255,255,255,0.40) 49.67%, rgba(255,255,255,0) 95.35%), #A3A3A3" }} />
-                  <p className="gradient-text-brand font-medium text-lg">Years serving eCommerce brands</p>
-                  <p className="text-[#404040] text-sm leading-relaxed">Providing reliable logistics solutions for online businesses</p>
+                  <p className="gradient-text-brand font-medium text-lg">Years in maritime shipping</p>
+                  <p className="text-[#404040] text-sm leading-relaxed">Expert handling of international cargo and customs compliance</p>
                 </div>
               </div>
 
@@ -78,8 +78,8 @@ export default function AboutSection() {
                 </div>
                 <div className="flex flex-col gap-1">
                   <div className="w-24 h-px" style={{ background: "linear-gradient(270deg, rgba(255,255,255,0) 3.98%, rgba(255,255,255,0.40) 49.67%, rgba(255,255,255,0) 95.35%), #A3A3A3" }} />
-                  <p className="gradient-text-brand font-medium text-lg">On-Time order fulfillment rate</p>
-                  <p className="text-[#404040] text-sm leading-relaxed">We ensure that every single order leaves our warehouse on schedule</p>
+                  <p className="gradient-text-brand font-medium text-lg">Successful shipment clearance rate</p>
+                  <p className="text-[#404040] text-sm leading-relaxed">Seamless customs processing with zero compliance delays</p>
                 </div>
               </div>
             </div>

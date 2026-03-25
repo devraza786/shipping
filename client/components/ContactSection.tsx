@@ -52,8 +52,8 @@ export default function ContactSection() {
                 </span>
                 <div>
                   <p className="text-[#A3A3A3] text-base mb-1">E-mail Address</p>
-                  <a href="mailto:info@apexus.com" className="text-[#FAFAFA] text-base font-medium hover:text-brand transition-colors">
-                    info@apexus.com
+                  <a href="mailto:royaumeshippinglinellc@gmail.com" className="text-[#FAFAFA] text-base font-medium hover:text-brand transition-colors">
+                    royaumeshippinglinellc@gmail.com
                   </a>
                 </div>
               </div>
@@ -69,8 +69,8 @@ export default function ContactSection() {
                 </span>
                 <div>
                   <p className="text-[#A3A3A3] text-base mb-1">Phone Number</p>
-                  <a href="tel:+123456789" className="text-[#FAFAFA] text-base font-medium hover:text-brand transition-colors">
-                    +123 – 456 – 789
+                  <a href="tel:+17863292575" className="text-[#FAFAFA] text-base font-medium hover:text-brand transition-colors">
+                    (786) 329-2575
                   </a>
                 </div>
               </div>
@@ -133,17 +133,18 @@ export default function ContactSection() {
                       onChange={(e) => setQuoteForm({ ...quoteForm, service: e.target.value })}
                     >
                       <option value="">Choose type of service</option>
-                      <option value="warehousing">Warehousing & Storage</option>
-                      <option value="fulfillment">Order Fulfillment</option>
-                      <option value="freight">Freight & Transportation</option>
+                      <option value="import">Import Services</option>
+                      <option value="export">Export Services</option>
+                      <option value="customs">Customs Clearance</option>
+                      <option value="vessel">Vessel Booking</option>
                     </select>
                   </div>
 
                   <div className="bg-[#171717] rounded-lg flex overflow-hidden">
-                    <span className="px-4 py-4 text-[#D4D4D4] text-base font-medium border-r border-[#404040] flex-shrink-0 whitespace-nowrap">Pickup City</span>
+                    <span className="px-4 py-4 text-[#D4D4D4] text-base font-medium border-r border-[#404040] flex-shrink-0 whitespace-nowrap">Origin Port</span>
                     <input
                       type="text"
-                      placeholder="Choose pickup city"
+                      placeholder="Enter origin port"
                       className="flex-1 bg-transparent px-4 py-4 text-[#666] text-base outline-none"
                       value={quoteForm.pickup}
                       onChange={(e) => setQuoteForm({ ...quoteForm, pickup: e.target.value })}
@@ -151,10 +152,10 @@ export default function ContactSection() {
                   </div>
 
                   <div className="bg-[#171717] rounded-lg flex overflow-hidden">
-                    <span className="px-4 py-4 text-[#D4D4D4] text-base font-medium border-r border-[#404040] flex-shrink-0 whitespace-nowrap">Delivery City</span>
+                    <span className="px-4 py-4 text-[#D4D4D4] text-base font-medium border-r border-[#404040] flex-shrink-0 whitespace-nowrap">Destination Port</span>
                     <input
                       type="text"
-                      placeholder="Choose delivery city"
+                      placeholder="Enter destination port"
                       className="flex-1 bg-transparent px-4 py-4 text-[#666] text-base outline-none"
                       value={quoteForm.delivery}
                       onChange={(e) => setQuoteForm({ ...quoteForm, delivery: e.target.value })}
@@ -213,16 +214,16 @@ export default function ContactSection() {
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
                 <path d="M9.99995 2.29602L1.40619 5.87675L0.972168 6.07206V17.6389H19.0277V6.07206L18.5937 5.87675L9.99995 2.29602ZM9.99995 3.81511L17.6388 7.00522V16.25H16.2499V8.61112H3.74995V16.25H2.36106V7.00522L9.99995 3.81511ZM5.13883 10H14.8611V16.25H5.13883V10Z" fill="#737373"/>
               </svg>
-              <span className="font-medium text-lg">Finding Warehouse</span>
+              <span className="font-medium text-lg">Track Shipment</span>
             </div>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">
             <div className="flex-1 bg-[#EEEEEE] rounded-lg flex overflow-hidden">
-              <span className="px-4 py-4 text-[#404040] text-base font-medium border-r border-[#D4D4D4] flex-shrink-0">Order ID</span>
+              <span className="px-4 py-4 text-[#404040] text-base font-medium border-r border-[#D4D4D4] flex-shrink-0">Shipment ID</span>
               <input
                 type="text"
-                placeholder="Enter ID number"
+                placeholder="Enter shipment ID"
                 className="flex-1 bg-transparent px-4 py-4 text-[#A3A3A3] text-base outline-none"
                 value={trackingForm.orderId}
                 onChange={(e) => setTrackingForm({ ...trackingForm, orderId: e.target.value })}
@@ -242,7 +243,7 @@ export default function ContactSection() {
               className="px-8 py-4 rounded-lg bg-brand text-white text-base font-medium hover:opacity-90 transition-opacity flex-shrink-0"
               style={{ boxShadow: "0 4px 4px 0 rgba(255,255,255,0.25) inset" }}
             >
-              Track Order
+              Track Shipment
             </button>
           </div>
         </div>
